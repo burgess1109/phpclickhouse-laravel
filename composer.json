@@ -19,7 +19,7 @@
   "require": {
     "php": ">=8.0",
     "smi2/phpclickhouse": "^1.4.2",
-    "the-tinderbox/clickhouse-builder": "^6.0",
+    "the-tinderbox/clickhouse-builder": "^6.1.2",
     "illuminate/support": ">=7",
     "illuminate/database": ">=7",
     "glushkovds/php-clickhouse-schema-builder": "^1.0.2"
@@ -39,5 +39,19 @@
     "psr-4": {
       "Tests\\": "tests/"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type":"package",
+      "package": {
+        "name": "the-tinderbox/clickhouse-builder",
+        "version":"6.1.2",
+        "source": {
+          "url": "https://github.com/glushkovds/ClickhouseBuilder.git",
+          "type": "git",
+          "reference":"6.1.2"
+        }
+      }
+    }
+  ]
 }
