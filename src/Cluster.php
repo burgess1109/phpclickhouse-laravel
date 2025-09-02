@@ -20,7 +20,7 @@ class Cluster
         foreach ($this->nodeConfigs as $index => $nodeConfig) {
             try {
                 $this->nodes[$index] = static::createClient($nodeConfig);
-                $this->nodes[$index]->ping($nodeConfig['isThrowPingException'] ?? true);
+                $this->nodes[$index]->ping($nodeConfig['is_throw_ping_exception'] ?? true);
                 $this->activeNodeIndex = $index;
                 break;
             } catch (TransportException $e) {

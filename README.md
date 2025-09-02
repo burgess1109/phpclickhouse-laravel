@@ -1,4 +1,4 @@
-![Tests](https://github.com/glushkovds/phpclickhouse-laravel/actions/workflows/test.yml/badge.svg)
+[![CI Tests](https://github.com/burgess1109/phpclickhouse-laravel/actions/workflows/test.yml/badge.svg)](https://github.com/burgess1109/phpclickhouse-laravel/actions/workflows/test.yml)
 
 # phpClickHouse-laravel
 
@@ -45,6 +45,7 @@ $ composer require glushkovds/phpclickhouse-laravel
         'max_partitions_per_insert_block' => 300,
     ],
     'fix_default_query_builder' => true,
+    'is_throw_ping_exception' => true
 ],
 ```
 
