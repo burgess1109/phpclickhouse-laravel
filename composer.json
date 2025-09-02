@@ -1,19 +1,19 @@
 {
-  "name": "glushkovds/phpclickhouse-laravel",
-  "description": "Adapter of the most popular library https://github.com/smi2/phpClickHouse to Laravel",
+  "name": "burgess1109/phpclickhouse-laravel",
+  "description": "Fork from https://github.com/glushkovds/phpclickhouse-laravel",
   "keywords": [
     "php",
     "laravel",
     "clickhouse"
   ],
-  "homepage": "https://github.com/glushkovds/phpClickHouse-laravel",
+  "homepage": "https://github.com/burgess1109/phpclickhouse-laravel",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Denis Glushkov",
-      "email": "amkarovec@gmail.com",
-      "homepage": "https://github.com/glushkovds"
+      "name": "Burgess Chen",
+      "email": "loveshe76119@gmail.com",
+      "homepage": "https://github.com/burgess1109"
     }
   ],
   "require": {
